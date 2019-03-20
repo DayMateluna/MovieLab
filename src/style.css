@@ -7,6 +7,11 @@ body{
 }
 #navbar{
     z-index: 100;
+position: fixed;
+    overflow: hidden;
+    bleed:top;
+    width: 100%;
+        
 }
 .movielab{
     width: 10%;
@@ -43,10 +48,7 @@ a:hover{
     text-decoration: underline;
     color: aliceblue;
 }
-#navbar{
-overflow: hidden;
-bleed:top;
-}
+
 .imagefooter{
 float:left;
 }
@@ -62,4 +64,8 @@ background:#333333;
 .imgfooter{
 width:10%;
 height:10%;
+}
+
+#card{
+    box-align: center;
 }
