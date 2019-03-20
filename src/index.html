@@ -11,10 +11,10 @@
 </head>
 <body>
     <header>
-    <div>
+    <!-- <div>
 <img src="../images/movie-lab-production-logo-vector-260nw-1330072844.jpg" alt="MovieLab" title="MovieLab" class="movielab">
-</div>
-<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+</div> -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
         <a class="navbar-brand" href="#" id="init">MOVIELAB</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -26,16 +26,16 @@
               <a class="nav-link" href="#" id="about">About Us <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="datos">Data</a>
+              <a class="nav-link" href="#" id="datos">Catálogo</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <input class="form-control mr-sm-2" id="search"type="search" placeholder="Ingresa tu Búsqueda" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btnsearch">Buscar</button>
           </form>
         </div>
       </nav>
-
+<br>
     </header>
     <main>
         <section id="page1">
@@ -70,46 +70,62 @@
                 </a>
               </div>
 </section>
-
+<br>
 <section class="articles">
+    <div>
     <article> 
         <h2>
-
+                Sobre Movielab
         </h2>
         <p>
-
+                Fragmento de un escrito con unidad temática, que queda diferenciado del resto de fragmentos por un punto y aparte y generalmente también por llevar letra mayúscula inicial y un espacio en blanco en el margen izquierdo de alineación del texto principal de la primera línea.
         </p>
-        <button id="pagina2">Ir a About Us</button>
-    </article>
-    <article>
-        <h2>
-
-        </h2>
-        <p>
-
-        </p>
-        <button id="pagina3">Ir a data</button>
+        <button  type="button" class="btn btn-dark" id="pagina2">Ir a About Us</button> 
     </article>
     <aside>
+            <h2>
+    Sobre IMDb
+            </h2>
+            <p>
+                    IMDb (Internet Movie Database) es una base de datos en línea de información relacionada con películas, programas de televisión, videos caseros y videojuegos, y transmisiones de Internet, que incluyen el reparto, el equipo de producción y las biografías del personal, los resúmenes de las tramas, las trivialidades, las críticas y calificaciones de los fanáticos.
+            </p>
+            <a target="_blank" href="https://www.imdb.com/">ir al sitio oficial de imdb</a>
+        </aside>
+    <article>
         <h2>
-
+                Nuestro Catálogo
         </h2>
         <p>
-
+                Fragmento de un escrito con unidad temática, que queda diferenciado del resto de fragmentos por un punto y aparte y generalmente también por llevar letra mayúscula inicial y un espacio en blanco en el margen izquierdo de alineación del texto principal de la primera línea.
         </p>
-        <a target="_blank" href="">ir al sitio oficial de omdb</a>
-    </aside>
-
+        <button id="pagina3" type="button" class="btn btn-dark">Catálogo</button>
+    </article>
+    
+   
+</div>
 </section>
 </section>
 <section id="page2">
 <p>hola</p>
 </section>
 <section id="page3">
+    <div id='root'></div>
 <p>chao</p>
 </section>
+
     </main>
-    <footer></footer>
+    <!-- <footer>
+            <div class="divfooter">
+            <ul class="ifooter">
+                <li>Creado por:</li>
+                <li>Betsi Salas</li>
+                <li>Dayana Navarrete</li>
+                <li>Camila Guerrero</li>
+                <li>Valeska Salinas</li>
+            </ul>
+            <p>MOVIELAB</p>
+        </div>
+    </footer> -->
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

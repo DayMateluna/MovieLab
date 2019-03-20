@@ -5,9 +5,15 @@
 body{
     background: #000000;
 }
-
+#navbar{
+    z-index: 100;
+position: fixed;
+    overflow: hidden;
+    bleed:top;
+    width: 100%;
+        
+}
 .movielab{
-    position: relative;
     width: 10%;
     height: 10%;
 }
@@ -16,13 +22,50 @@ body{
     height: 70%;
 }
 article{
-background: #333333;
+background: #686767;
+padding: 1%;
+margin-bottom: 20px;
+width:67%;
+margin-right: 2%;
+float:left;
+margin-left:1%;
 }
 aside{
 background: red;
+float: left;
+box-sizing: border-box;
+width:29%;
 position: relative;
-
+margin-right: 1%;
+opacity:0.9;
 }
-/* #navbar{
-    position:fixed;
-}  */
+
+a{
+    text-decoration: none;
+    color:#000000;
+}
+a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.imagefooter{
+float:left;
+}
+.imgfooter{
+ width: 50%;
+ height: 50%;
+}
+
+footer{
+width:100%;
+background:#333333;
+}
+.imgfooter{
+width:10%;
+height:10%;
+}
+
+#card{
+    box-align: center;
+}
